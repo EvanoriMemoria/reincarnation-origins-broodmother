@@ -1,0 +1,50 @@
+{
+  "name": "Websling",
+  "description": "Fire a bundle of web at the target, commanding your children to attack!",
+  "hidden": false,
+  "cooldown": 200,
+  "key": "key.origins.primary_active",
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 19
+  },
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 64,
+    "block": true,
+    "entity": true,
+    "shape_type": "collider",
+    "fluid_handling": "none",
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:slowness",
+              "duration": 200,
+              "amplifier": 2,
+              "show_icon": true,
+              "show_particles": true
+            }
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "power grant @s reincarnation-origins:broodmother/aggro"
+          }
+        ]
+      }
+    },
+    "block_action": {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.item_frame.remove_item player @a ~ ~ ~ 1 1"
+    },
+    "command_at_hit": "fill ~1 ~ ~1 ~-1 ~ ~-1 origins:temporary_cobweb replace minecraft:air",
+    "command_along_ray": "particle minecraft:dust 1 1 1 1 ~ ~ ~ 0 0 0 0.1 1 normal @a",
+    "command_step": 0.1,
+    "command_along_ray_only_on_hit": false
+  }
+}

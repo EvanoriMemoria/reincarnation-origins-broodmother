@@ -1,0 +1,8 @@
+{
+  "name": "Homely Mineshaft",
+  "description": "Spawn in a mineshaft.",
+  "hidden": false,
+  "type": "origins:modify_player_spawn",
+  "dimension": "minecraft:overworld",
+  "structure": "minecraft:mineshaft"
+}

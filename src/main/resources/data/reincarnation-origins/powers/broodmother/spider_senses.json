@@ -1,0 +1,57 @@
+{
+  "name": "Web Aggro",
+  "description": "enemies in webs aggro your minions",
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "interval": 30,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 16,
+        "bientity_condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:in_block_anywhere",
+                "compare_to": 0,
+                "comparison": ">",
+                "block_condition": {
+                  "type": "origins:or",
+                  "conditions": [
+                    {
+                      "type": "origins:block",
+                      "block": "minecraft:cobweb"
+                    },
+                    {
+                      "type": "origins:block",
+                      "block": "origins:temporary_cobweb"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:entity_group",
+                "group": "arthropod",
+                "inverted": true
+              }
+            }
+          ]
+        },
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:execute_command",
+            "command": "power grant @s reincarnation-origins:broodmother/aggro"
+          }
+        }
+      }
+    ]
+  }
+}
