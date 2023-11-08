@@ -8,8 +8,8 @@
         "fergenbergel"
     ],
     "contact": {
-        "homepage": "https://github.com/EvanoriMemoria/ReincarnationOrigins",
-        "issues": "https://github.com/EvanoriMemoria/ReincarnationOrigins/issues",
+        "homepage": "https://github.com/EvanoriMemoria/reincarnation-origins-broodmother",
+        "issues": "https://github.com/EvanoriMemoria/reincarnation-origins-broodmother/issues",
         "discord": "https://discord.com/invite/Yq7n97f"
     },
     "license": "MIT License",
@@ -18,7 +18,7 @@
     "depends": {
         "origins": ">=1.6",
         "pehkui": ">=3.3.3",
-        "minecraft": "1.19.2"
+        "minecraft": ">=1.19.2"
     },
     "breaks":{
         "bot": "*",
