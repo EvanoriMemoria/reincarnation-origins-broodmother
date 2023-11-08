@@ -1,6 +1,4 @@
 {
-  "name": "Feed",
-  "description": "Feed on enemies trapped in your web by hitting them with an empty hand.",
   "hidden": false,
   "type": "origins:self_action_on_hit",
   "cooldown": 20,

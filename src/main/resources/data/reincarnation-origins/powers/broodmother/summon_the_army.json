@@ -1,7 +1,5 @@
 {
-  "name": "Come Children!",
-  "description": "You have three wonderful children who will help you fight. They're not the smartest bunch, but you love them anyway. \n§5Activate to recall them to your position. \n§rActivate while sneaking to dismiss them.",
-  "type": "origins:multiple",
+"type": "origins:multiple",
   "summon_army": {
     "type": "origins:active_self",
     "cooldown": 300,

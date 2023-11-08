@@ -1,7 +1,5 @@
 {
-  "name": "Spiders Pour Forth",
-  "description": "Upon your death, your arachnid children pour from your body, restoring some of your health and joining your legion.",
-  "type": "origins:multiple",
+"type": "origins:multiple",
   "cooldown": {
     "type": "origins:cooldown",
     "cooldown": 6000,

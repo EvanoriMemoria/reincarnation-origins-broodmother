@@ -1,6 +1,4 @@
 {
-  "name": "Climb",
-  "description": "You are able to climb blocks.",
   "hidden": false,
   "type": "origins:multiple",
   "toggle": {
