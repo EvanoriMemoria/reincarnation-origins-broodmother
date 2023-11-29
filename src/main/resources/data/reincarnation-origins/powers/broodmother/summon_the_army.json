@@ -1,5 +1,5 @@
 {
-"type": "origins:multiple",
+  "type": "origins:multiple",
   "summon_army": {
     "type": "origins:active_self",
     "cooldown": 300,

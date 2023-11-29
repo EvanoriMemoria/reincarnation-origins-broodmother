@@ -1,5 +1,4 @@
 {
-"hidden": false,
   "type": "origins:action_over_time",
   "interval": 20,
   "entity_action": {
@@ -14,6 +13,5 @@
         "command": "function reincarnation-origins:summons/summoner_kinship"
       }
     ]
-      
   }
 }

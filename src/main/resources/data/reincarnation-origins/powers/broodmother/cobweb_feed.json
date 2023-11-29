@@ -1,5 +1,4 @@
 {
-  "hidden": false,
   "type": "origins:self_action_on_hit",
   "cooldown": 20,
   "entity_action": {

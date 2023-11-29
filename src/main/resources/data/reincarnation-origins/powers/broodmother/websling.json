@@ -1,12 +1,11 @@
 {
-  "hidden": false,
-  "cooldown": 200,
+  "type": "origins:active_self",
   "key": "key.origins.primary_active",
+  "cooldown": 200,
   "hud_render": {
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
     "bar_index": 19
   },
-  "type": "origins:active_self",
   "entity_action": {
     "type": "origins:raycast",
     "distance": 64,

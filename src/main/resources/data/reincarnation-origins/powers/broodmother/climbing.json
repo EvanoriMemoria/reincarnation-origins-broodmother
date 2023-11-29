@@ -1,5 +1,4 @@
 {
-  "hidden": false,
   "type": "origins:multiple",
   "toggle": {
     "type": "origins:toggle",

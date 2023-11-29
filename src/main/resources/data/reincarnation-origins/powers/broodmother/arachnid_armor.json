@@ -1,5 +1,5 @@
 {
-"type": "origins:multiple",
+  "type": "origins:multiple",
   "cooldown": {
     "type": "origins:cooldown",
     "cooldown": 6000,
