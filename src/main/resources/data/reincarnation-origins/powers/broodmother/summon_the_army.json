@@ -74,17 +74,17 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "function reincarnation-origins:broodmother/kill_brood"
+          "command": "function reincarnation-origins:broodmother/remove_all_spiders"
         }
       ]
     },
     "entity_action_removed": {
       "type": "origins:execute_command",
-      "command": "function reincarnation-origins:broodmother/kill_brood"
+      "command": "function reincarnation-origins:broodmother/remove_all_spiders"
     },
     "entity_action_respawned": {
       "type": "origins:execute_command",
-      "command": "function reincarnation-origins:broodmother/kill_brood"
+      "command": "function reincarnation-origins:broodmother/remove_all_spiders"
     }
   }
 }
